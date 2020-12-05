@@ -18,8 +18,8 @@ header{
 
 header > nav {
     position: absolute;
-    right: 700px;
-    top: 100px;
+    right: 860px;
+    top: 93px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -74,7 +74,16 @@ padding: 15px;
     display: block;
 }
 
+#paz-logo {
+    position: absolute;
+    width: 19%;
+    right: -190px;
+    top: -50px;
+}
 
+header > nav > ul > li > a > img {
+    width: 23px;
+}
 
 /* ------------------------ */
 /* MAIN part */
@@ -83,7 +92,7 @@ main{
     width: 1210px;
     height: 1000px;
     margin: auto;
-    margin-top: 32px;
+    margin-top: 33px;
 }
 .row1 {
     display: flex;
@@ -122,20 +131,20 @@ main{
 }
 
 .row2-pic > img {
-    width: 135%;
+    width: 133%;
 }
 .row2-bg > .row2-pic {
     position: absolute;
-    top:80px;
-    right: 40px;
+    top:75px;
+    right: 39px;
 } 
 
 .isra-map >img {
     
     position: absolute;
     width:24%;
-    top: 60px;
-    right:270px;
+    top: 63px;
+    right:267px;
 
 }
 
@@ -152,18 +161,27 @@ footer {
     background-color: rgb(161, 159, 159);
 }
 
-footer > section {
-}
 
 footer > section > ul {
     display: flex;
-    margin-right: 680px;
-    font-size: 20px;
+    margin-right: 700px;
+    font-size: 19px;
     padding: 0px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 
 
 }
 footer > section > ul > li {
-padding-left: 15px;
+padding-left: 5px;
+}
+footer > section > ul > li > span {
+    padding-right: 5px;
+    color: white;
+}
+footer > section > ul > li > a > img {
+    position: absolute;
+    width: 25px;
+    right: 675px;
+}
+
 }
