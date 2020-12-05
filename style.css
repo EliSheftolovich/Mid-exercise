@@ -11,7 +11,7 @@ header{
     position: relative;
 }
 
-nav {
+header > nav {
     position: absolute;
     right: 700px;
     top: 100px;
@@ -19,7 +19,7 @@ nav {
     font-weight: bold;
 }
 
-nav > ul {
+ header > nav > ul {
     display: flex;
     margin: 0;
     padding-right: 0;
@@ -27,9 +27,12 @@ nav > ul {
 }
 li {
     list-style: none;
-    background-color: grey;
-
 }
+
+.dropdown-content > ul > li {
+    background-color: grey;
+}
+
  li > a {
     color: white;
     text-decoration: none;
@@ -37,12 +40,14 @@ li {
 }
 
 ul > li > a:hover  {
-    color: blue;
+    color: #005CA0;
     text-decoration: underline;
-    background-color: rgb(149, 149, 149); 
-
 }
-nav > ul > li > a {
+
+.dropdown-content >ul > li:hover {
+    background-color: rgb(149, 149, 149); 
+}
+header > nav > ul > li > a {
     margin: 10px;
     padding: 10px;
 }
@@ -66,7 +71,7 @@ padding: 15px;
 
 
 
-
+/* ------------------------ */
 /* MAIN part */
 
 .main{
@@ -99,3 +104,29 @@ padding: 15px;
 
 
 /* MAIN part END */
+/* ------------------------------------ */
+
+/* Footer part */
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: rgb(161, 159, 159);
+}
+
+footer > section {
+}
+
+footer > section > ul {
+    display: flex;
+    margin-right: 680px;
+    font-size: 20px;
+    padding: 0px;
+    margin-bottom: 8px;
+
+
+}
+footer > section > ul > li {
+padding-left: 15px;
+}
