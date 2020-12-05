@@ -5,6 +5,11 @@ body {
     margin: 0;
 }
 
+*{
+    box-sizing: border-box;
+}
+
+
 header{
     background-color: rgb(165, 161, 161);
     height: 140px;
@@ -74,33 +79,65 @@ padding: 15px;
 /* ------------------------ */
 /* MAIN part */
 
-.main{
-    border: solid;
-    width: 1200px;
-    height: 800px;
+main{
+    width: 1210px;
+    height: 1000px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 32px;
 }
 .row1 {
     display: flex;
     flex-direction: row;
+}
 
+.row1 > div {
+    flex-grow: 1;
+    
+}
+
+.row1 > div > img {
+    width: 100%;
+    padding: 8px;
+    border-radius: 0px 0px 30px 0px ;
 }
 
 .row2 {
     display: flex;
     flex-direction: row;
+    margin-top:5px;
+}
 
+.row2 > div {
+    flex-grow: 1;
+}
+
+
+.row2 > div > img {
+    width: 100%;
+    padding: 8px;
 }
 
 .row2-bg {
     position: relative;
 }
 
+.row2-pic > img {
+    width: 135%;
+}
 .row2-bg > .row2-pic {
     position: absolute;
-    top: 50px;
+    top:80px;
+    right: 40px;
 } 
+
+.isra-map >img {
+    
+    position: absolute;
+    width:24%;
+    top: 60px;
+    right:270px;
+
+}
 
 
 /* MAIN part END */
