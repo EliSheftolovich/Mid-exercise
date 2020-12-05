@@ -44,9 +44,9 @@ li {
 
 }
 
-ul > li > a:hover  {
-    color: #005CA0;
-    text-decoration: underline;
+a:hover {
+    color: #005CA0 !important; 
+    text-decoration: underline !important;
 }
 
 .dropdown-content >ul > li:hover {
@@ -83,6 +83,31 @@ padding: 15px;
 
 header > nav > ul > li > a > img {
     width: 23px;
+}
+
+.search-box {
+    position: absolute;
+    left: 700px;
+    top: 23px;
+}
+.search-box > input {
+    font-size: 17px;
+    border-radius: 0px 10px 0px 0px;
+    border-style: none;   
+}
+
+.search-box > img {
+    position: absolute;
+    width: 24px;
+    padding-right: 2px;
+}
+
+.search-box > a {
+    font-size: 17px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 /* ------------------------ */
