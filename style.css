@@ -36,12 +36,15 @@ li {
 
 .dropdown-content > ul > li {
     width: 203px;
+    border-top: solid 1px rgb(173, 170, 170);
+
 }
 
 .dropdown-content > ul {
     background: rgb(144,144,144);
     background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(147,144,144,1) 80%, rgba(186,184,184,1) 100%);    margin-top: 20px;
     padding-right: 0px;
+    
 }
 
  li > a {
@@ -324,4 +327,122 @@ footer > section > ul > li > a > img {
     right: 675px;
 }
 
+/* --------------contact-us page -------- */
+
+.contact-main {
+    position: relative;
+    width: 1250px;
+    height: 700px;
+    border: solid 1px;
+    margin: auto;
+    margin-top: 32px;
+    color: #5c5c5c;
+}
+aside {
+    border: solid 1px;
+    height: 700px;
+    width: 190px;
+}
+aside > div {
+    position: absolute;
+
+}
+
+
+aside > div> ul >li{
+    width: 120px;
+    height: 37px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background: rgb(175,168,168);
+    background: linear-gradient(0deg, rgba(175,168,168,1) 0%, rgba(190,185,185,1) 9%, rgba(255,255,255,1) 100%);
+    border-top: solid 1px rgb(226, 223, 223);
+    
+}
+aside > div> ul >li>a {
+    color: #5c5c5c;
+}
+.center {
+    position: absolute;
+    border: solid blue 1px;
+    height: 700px;
+    width: 610px;
+    top: 0px;
+    right: 210px;
+}
+
+
+.top-menu {
+    position: absolute;
+    top: 8px;
+    right:15px;
+
+}
+.top-menu > span >a {
+    color: #5c5c5c;
+    text-decoration: none;
+}
+
+.top-menu > h3 {
+    margin-top: 30px;
+    text-decoration: underline;
+    
+}
+
+.top-menu-h3 > h3 {
+    border-bottom: 1px solid #cbcbcb;
+    width: 570px;
+    padding-bottom:4px ;
+}
+
+.main-bg {
+    position: relative;
+    top: 90px;
+    right: 18px;
+
+}
+.main-bg > img {
+    width: 480px;
+    height: 490px;
+}
+
+.form {
+    position: absolute;
+    width: 420px;
+    height: 400px;
+    margin: 0px;
+    top: -2px;
+    right: 20px;
+
+}
+.form >h3 + p {
+    font-weight: bold;
+}
+form {
+    width: 360px;
+    margin: auto;
+}
+form > div {
+    padding: 5px;
+    position: relative;
+    padding: 10px;
+}
+form > div >input {
+    position: absolute;
+    left: 0px;
+    height: 30px;
+}
+
+form> div:last-child {
+top: -20px;
+}
+
+form> div:last-child > input {
+    background: rgb(17,102,180);
+    background: linear-gradient(0deg, rgba(17,102,180,1) 0%, rgba(25,143,195,1) 66%, rgba(255,255,255,1) 100%);    color: white;
+    width: 60px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 0px 10px 0px 0px;
+    border-color: #cbcbcb;
 }
