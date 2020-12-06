@@ -496,3 +496,6 @@ form> div:last-child > input {
     position: relative;
     top: 30px;
 }
+.top-content > p > a {
+    text-decoration: none;
+}
